@@ -1,10 +1,8 @@
 # My Nextjs Starter
 
-This repository is what i use for my nextjs projects like
+This repository is what i use for my nextjs projects.
 
-1.
-2.
-
+This starter is built on top of [Create-t3-app](https://github.com/t3-oss/create-t3-app)
 ## Features
 
 - Next.js 14 App Router
@@ -20,4 +18,3 @@ This repository is what i use for my nextjs projects like
 - Drizzle ORM
 - Postgres
 - T3Env
--
