@@ -8,27 +8,36 @@
     "resolveJsonModule": true,
     "moduleDetection": "force",
     "isolatedModules": true,
-
     /* Strictness */
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "checkJs": true,
-
     /* Bundled projects */
     "lib": ["dom", "dom.iterable", "ES2022"],
     "noEmit": true,
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "jsx": "preserve",
-    "plugins": [{ "name": "next" }],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
     "incremental": true,
-
     /* Path Aliases */
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
     "strictNullChecks": true
+  },
+  "paths": {
+    "@components/*": ["./src/components/*"],
+    "@components": ["./src/components/index.ts"],
+    "@hooks/*": ["./src/hooks/*"],
+    "@hooks": ["./src/hooks/index.ts"],
+    "@utils/*": ["./src/utils/*"],
+    "@utils": ["./src/utils/index.ts"]
   },
   "include": [
     ".eslintrc.cjs",
