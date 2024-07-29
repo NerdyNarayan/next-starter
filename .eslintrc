@@ -46,7 +46,7 @@
 		"react-hooks/exhaustive-deps": "off",
 		// error
 		"prettier/prettier": "error",
-		"@typescript-eslint/consistent-type-imports": "error",
+		// "@typescript-eslint/consistent-type-imports": "error",
 		// warn
 		"no-console": "warn",
 		"react/self-closing-comp": "warn",
